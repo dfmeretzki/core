@@ -3,10 +3,11 @@
   "description": "The internationalization (i18n) library for Angular",
   "private": true,
   "scripts": {
-    "build": "ng build @ngx-translate/core && ng build @ngx-translate/http-loader",
+    "build": "ng build @ngx-translate/core",
     "test": "jest",
     "test-watch": "jest --watch",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postbuild": "mv dist/@ngx-translate/core/* ./"
   },
   "files": [
     "dist/@ngx-translate/*"
