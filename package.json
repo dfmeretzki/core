@@ -8,6 +8,9 @@
     "test-watch": "jest --watch",
     "prepare": "npm run build"
   },
+  "files": [
+    "dist/@ngx-translate/*"
+  ],
   "dependencies": {
     "@angular/animations": "~13.0.0",
     "@angular/common": "~13.0.0",
