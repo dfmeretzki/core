@@ -6,7 +6,8 @@
     "prebuild": "rm dist -Rf",
     "build": "ng build @ngx-translate/core && ng build @ngx-translate/http-loader",
     "test": "jest",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@angular/animations": "~13.0.0",
