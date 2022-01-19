@@ -3,7 +3,6 @@
   "description": "The internationalization (i18n) library for Angular",
   "private": true,
   "scripts": {
-    "prebuild": "rm dist -Rf",
     "build": "ng build @ngx-translate/core && ng build @ngx-translate/http-loader",
     "test": "jest",
     "test-watch": "jest --watch",
